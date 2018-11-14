@@ -28,7 +28,7 @@ header {
 }
 .logo .icon-logo {
   font-size: 50px;
-    color: rgb(255, 87, 34,0.6);
+  color: rgba(255,87,34,0.6);
 }
 header nav {
   float: right;
@@ -264,7 +264,7 @@ footer a:hover, header a:hover {color: #817f7f;}
   display: block;
   font-family: 'icomoon';
   content: "\e907";
-  color: rgb(0, 57, 86,0.1);
+  color: rgba(0,57,86,0.1);
   font-size: 40px;
   z-index: -1;
 }
