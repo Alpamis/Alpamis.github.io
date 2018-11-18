@@ -182,15 +182,17 @@
 		font-size: 24px;
 	}
 	.menu {
-		position: relative;
-		width: 100%;
-		order: 1;
+	    position: absolute;
+	    width: 100%;
+	    order: 1;
+	    left: 0;
 	}
 
 	.ico{
-	    position: relative;
+	    position: absolute;
 	    margin-right: 15px;
-		order: 3
+	    order: 3;
+	    right: 0;
 	}
 	
 	.cart {
