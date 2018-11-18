@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?w28xki');
+  src:  url('fonts/icomoon.eot?w28xki#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?w28xki') format('truetype'),
+    url('fonts/icomoon.woff?w28xki') format('woff'),
+    url('fonts/icomoon.svg?w28xki#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search2:before {
+  content: "\e907";
+}
+.icon-chat:before {
+  content: "\e900";
+}
+.icon-comments:before {
+  content: "\e900";
+}
+.icon-bubble:before {
+  content: "\e900";
+}
+.icon-talk:before {
+  content: "\e900";
+}
+.icon-search:before {
+  content: "\f002";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-ellipsis-v1:before {
+  content: "\f142";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-behance:before {
+  content: "\f1b4";
+}
+.icon-pinterest-p:before {
+  content: "\f231";
+}
+.icon-user-circle:before {
+  content: "\f2bd";
+}
+.icon-user-circle-o:before {
+  content: "\f2be";
+}
+.icon-ellipsis-v:before {
+  content: "\e909";
+}
+.icon-pinterest:before {
+  content: "\e901";
+}
+.icon-vk:before {
+  content: "\e902";
+}
+.icon-search3:before {
+  content: "\e908";
+}
+.icon-cheveron-down:before {
+  content: "\e903";
+}
+.icon-shopping-cart:before {
+  content: "\e904";
+}
+.icon-user-solid-circle:before {
+  content: "\e905";
+}
+.icon-minus1:before {
+  content: "\e90a";
+}
+.icon-heart:before {
+  content: "\e906";
+}
+.icon-search1:before {
+  content: "\e986";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+.icon-play2:before {
+  content: "\ea15";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-tumblr:before {
+  content: "\eab9";
+}
