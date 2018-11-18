@@ -170,8 +170,9 @@
 	.center-blog {display: flex;}
 
 	.logo {
-		font-size: 24px;
-		order: 3;
+	    font-size: 24px;
+	    order: 3;
+	    margin: 0 auto;
 	}
 	.center-ico li:nth-child(2),
 	.center-ico li:first-child {display: none;}
