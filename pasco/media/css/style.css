@@ -303,6 +303,10 @@ input,button{outline: none;}
 	border-top: none;
 	border-left: none;
 	border-right: none;
+	border-radius: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
 	border-bottom: 1px solid #fff;
 	background: transparent;
 	outline: none;
