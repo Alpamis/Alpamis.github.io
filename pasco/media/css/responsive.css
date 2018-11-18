@@ -216,9 +216,10 @@
 	.center-comment {display: none;}
 	.nav-select {display: block;}
 	.top-nav{display: none;}
-	.contetn-top .container {
-		padding: 8px 15px;
-	}
+
+	.contetn-top .container {padding: 8px 15px;}
+
+	.search {display: none !important;}
 }
 
 /* ================================== Max Width 475px ================================== */
