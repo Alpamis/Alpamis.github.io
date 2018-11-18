@@ -509,6 +509,7 @@ input,button{outline: none;}
 	width: 50px;
 	height: 50px;
 	margin-bottom: 13px;
+	border-radius: 50%;
 }
 .comment a,
 .comment-span {
@@ -667,6 +668,7 @@ input,button{outline: none;}
 }
 .c-user:hover{	color: #404040;}
 .c-user img {
+	border-radius: 50%;
 	margin-right: 10px;
 	width: 50px;
 	height: 50px;
