@@ -84,6 +84,33 @@ $(document).ready(function(){
         }
     });
 
+// ============================================================
+	  $('.lang-btn').click(function(){
+	  	
+	    if ( $(this).hasClass('current')) {
+	      $(this).removeClass('current');
+	      $('.in-lang').slideUp(400);
+	    } else {
+	      $(this).addClass('current');
+	        $('.in-lang').slideDown(400);
+	    }
+	    return false;
+	  });
+
+//===================================================
+
+	  	  $('.nav-btn').click(function(){
+	  	
+	    if ( $(this).hasClass('current')) {
+	      $(this).removeClass('current');
+	      $('.in-nav').slideUp(400);
+	    } else {
+	      $(this).addClass('current');
+	        $('.in-nav').slideDown(400);
+	    }
+	    return false;
+	  });
+
 
 
 

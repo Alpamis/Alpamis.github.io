@@ -219,7 +219,7 @@
 	.search, .top-nav, .center-text,
 	.center-comment {display: none !important;;}
 
-	.mobile-input, .nav-select {display: block;}
+	.mobile-input, .nav-category {display: block;}
 
 	.contetn-top .container {padding: 8px 15px;}
 	   
@@ -245,7 +245,7 @@
 	
 	.fader{ background: #fff; }
 	
-	.modalfade{ top: 30px; }
+	.modalfade{ top: 15px; }
 
 	.modal-media { display: block; }
 
