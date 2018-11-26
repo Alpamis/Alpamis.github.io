@@ -245,7 +245,10 @@
 	
 	.fader{ background: #fff; }
 	
-	.modalfade{ top: 15px; }
+	.modalfade{
+		width: 100%;
+	 	top: 15px; 
+	 }
 
 	.modal-media { display: block; }
 
