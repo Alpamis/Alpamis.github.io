@@ -92,24 +92,36 @@
 					</div>
 				</div>
 
-
-                    <div class="overlay js-overlay-campaign">
-                        <div class="popup js-popup-campaign">
-                            <h1>Hello !</h1>
+                    <div class="fader"></div>
+                    <div class="modalfade">
+                        <h2>Create Account</h2>
                             <form>
-                                <strong>Your Name</strong>
-                                <input type="text" name="" placeholder="Your Name">
-                                <strong>Password</strong>
-                                <input type="Password" name="" placeholder="Password">
-                                <button type="button">register</button>
-                                <a href="#">Forgot your password?</a><br>
-                                <a href="#">Don't you have an account?</a>
+                                <div class="modal-input">
+                                    <strong>Your E-mail</strong>
+                                    <input type="email" placeholder="alpamis1771@mail.ru">
+                                    <span class="icon-envelope"></span>
+                                </div>
+                                <div class="modal-media main_flex__nowrap">
+                                    <div class="modal-user">
+                                        <strong>Nick Name</strong>
+                                        <input type="text" placeholder="Alpamis">
+                                        <span class="icon-user"></span>
+                                    </div>
+                                    <div class="modal-locked">
+                                        <strong>Password</strong>
+                                        <input type="Password" name="" placeholder="Password">
+                                        <span class="icon-locked"></span>    
+                                    </div>
+                                </div>
                             </form>
-                            <div class="close-popup js-close-campaign"></div>
-                        </div>
+                            <p>By creating an account you agree to the <a href="javascript:void(0)">Terms of Service</a> and <a href="javascript:void(0)">Privacy Policy</a></p>
+                            <button type="button">Sign Up</button>
+                            <div class="modal-social main_flex__nowrap">
+                                <a href="javascript:void(0)"><span class="icon-twitter"></span>twitter</a>
+                                <a href="javascript:void(0)"><span class="icon-facebook"></span>facebook</a>
+                            </div>
+                        <a href="javascript:void(0)" class="btn red">Back Up</a>
                     </div>
-
-
 			</div>
 		</div>
 
@@ -121,10 +133,12 @@
                     <div class="media-768 col-xs-2"></div>
 
                     <div class="menu col-lg-8 col-md-8 col-sm-10">
-                        <div class="click-menu">
-                            <button>
-                                <hr>
-                            </button>
+                        <div class="wrapper">
+                            <div class="main-item click-menu">
+                                <span class="line line01"></span>
+                                <span class="line line02"></span>
+                                <span class="line line03"></span>
+                            </div>
                         </div>
                         <ul class="center-menu main_flex__nowrap flex__jcontent_between">
                             <li class="active"><a href="#">Home</a></li>
@@ -134,6 +148,12 @@
                             <li><a href="#">Shop</a></li>
                             <li><a href="#">Components</a></li>
                             <li><a href="#">Features</a></li>
+                            <li>
+                                <form class="mobile-input">
+                                    <input type="text">
+                                    <button type="button">search</button>
+                                </form>
+                            </li>
                         </ul>
                         <form class="search">
                             <input type="text">
@@ -829,8 +849,8 @@
                     <p>PASCO sit amet varius orci. Duis upse commodo elit sedamocid nisimole up stie, vitae fringilla justo fringilla. Lori Vestibulum libr portaman neque enia gravida elementum facilisis ipsum leonardo. Vestibulum loeuenim and libero, lobortis eu tortor ut, hendrerit  maxi tellus. Vivamus egestas massa leo, sit amet facilisis commodo. 
                     </p>
                     <button type="button">read me</button>
-
                 </div>
+                
                 <div class="device-nav">
                     <h5>categories</h5>
                         <ul class="s-nav">
@@ -913,13 +933,9 @@
                             <li><a href="#"><span class="icon-instagram"></span></a></li>
                         </ul> 
                         <p> &#169; 2016 PASCO | All Rights Reserved</p>
-                </div>                              
-
-                
+                </div>                                
             </div>
         </div>
-        
     </footer>
-	
 </body>
 </html>

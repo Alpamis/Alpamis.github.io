@@ -6,6 +6,7 @@ $(document).ready(function(){
 
 // burger------------------------------------------------------------
 	$('.click-menu').on('click', function() {
+		
 
 		$('.center-menu').slideToggle(300, function(){
 
@@ -13,6 +14,10 @@ $(document).ready(function(){
 				$(this).removeAttr('style');
 			}
 		});
+	});
+
+	$(".click-menu").click(function(){
+			$(this).toggleClass("close");
 	});
 
 
@@ -30,39 +35,21 @@ $(document).ready(function(){
 	  });
 
 // Модальное окно----------------------------------------------
-		// открыть по кнопке
-		$('.user').click(function() { 
-		  
-		  $('.js-overlay-campaign').fadeIn();
-		  $('.js-overlay-campaign').addClass('disabled');
-		});
 
-		// закрыть на крестик
-		$('.js-close-campaign').click(function() { 
-		  $('.js-overlay-campaign').fadeOut();
-		  
-		});
+	//Modal age 
+	$('.user').click(function(){
+		$('body').addClass('overflow');
+		$('.fader').fadeIn(1000);
+		$('.modalfade').fadeIn(1000);
+	});
 
-		// закрыть по клику вне окна
-		$(document).mouseup(function (e) { 
-		  var popup = $('.js-popup-campaign');
-		  if (e.target!=popup[0]&&popup.has(e.target).length === 0){
-		    $('.js-overlay-campaign').fadeOut();
-		    
-		  }
-		});
 
-		// открыть по таймеру 
-		/*$(window).on('load', function () { 
-		  setTimeout(function(){
-		    if($('.js-overlay-campaign').hasClass('disabled')) {
-		      return false;
-		    } else {
-		      
-		      $(".js-overlay-campaign").fadeIn();
-		    }
-		  }, 5000);
-		});*/
+	//Modal age close
+	$('.modalfade .btn').click(function(){
+		$('body').removeClass('overflow');
+		$('.fader').fadeOut();
+		$('.modalfade').fadeOut();
+	});
 
 
 

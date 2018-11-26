@@ -149,7 +149,7 @@
 	
 	.logo {text-align: center;}
 	
-	.click-menu {display: inline-block;}
+	.wrapper {display: inline-block;}
 
 	.center-menu {
 		z-index: 10;
@@ -200,7 +200,8 @@
 		display: block;
     	right: -47px;
     	left: 0;
-		display: block;}
+		display: block;
+	}
 
 	.h-center {
 	    padding: 26px 0;
@@ -215,14 +216,17 @@
 	}
 	.media-768{display: none;}
 
-	.center-text,
-	.center-comment {display: none;}
-	.nav-select {display: block;}
-	.top-nav{display: none;}
+	.search, .top-nav, .center-text,
+	.center-comment {display: none !important;;}
+
+	.mobile-input, .nav-select {display: block;}
 
 	.contetn-top .container {padding: 8px 15px;}
-
-	.search {display: none !important;}
+	   
+    .center-menu li:hover {
+    	padding-left: 24px;
+		transition: all ease 0.27s;
+    }
 }
 
 /* ================================== Max Width 475px ================================== */
@@ -233,12 +237,19 @@
 	.gallery-3 .c-img .icon-play2,
 	.c-img .icon-play2 {font-size: 40px;}
 
-	.in-img a {font-size: 12px;}
+	.in-img a { font-size: 12px; }
 
-	.gallery-2,
-	.gallery-1{padding-bottom: 10px;}
+	.gallery-2, .gallery-1{ padding-bottom: 10px; }
 
-	.c-img {padding-top: 75%;}
+	.c-img { padding-top: 75%; }
+	
+	.fader{ background: #fff; }
+	
+	.modalfade{ top: 30px; }
+
+	.modal-media { display: block; }
+
+	.modalfade h2 { font-size: 24px; }
 }
 
 

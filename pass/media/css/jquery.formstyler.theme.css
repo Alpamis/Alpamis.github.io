@@ -223,7 +223,7 @@
 	display: block;
 	text-align: center;
 	width: 65px !important;
-	padding-left: 9px;
+	padding-left: 3px;
 }
 .jq-selectbox .placeholder {
 	color: #888;
@@ -258,7 +258,7 @@
 	margin: 2px 0 0;
 	height: 60px !important;
 	padding: 0;
-	top: 18px !important;
+	top: 29px !important;
 	border: 1px solid #CCC;
 	border-radius: 0;
 	background: #FFF;
